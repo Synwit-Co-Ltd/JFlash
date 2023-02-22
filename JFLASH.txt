@@ -1,0 +1,44 @@
+  <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM181xB" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x1000" />
+    <FlashBankInfo Name="SWM181xB" BaseAddr="0x00000000" MaxSize="0x1E000" Loader="Devices/Synwit/SWM181xB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM181xC" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x1000" />
+    <FlashBankInfo Name="SWM181xC" BaseAddr="0x00000000" MaxSize="0x3E000" Loader="Devices/Synwit/SWM181xC.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM190xB" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x1000" />
+    <FlashBankInfo Name="SWM190xB" BaseAddr="0x00000000" MaxSize="0x1E000" Loader="Devices/Synwit/SWM190xB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM201x6" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x1000" />
+    <FlashBankInfo Name="SWM201x6" BaseAddr="0x00000000" MaxSize="0x8000" Loader="Devices/Synwit/SWM201x6.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM211x8" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x1000" />
+    <FlashBankInfo Name="SWM211x8" BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/Synwit/SWM211x8.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM220x6" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x1000" />
+    <FlashBankInfo Name="SWM220x6" BaseAddr="0x00000000" MaxSize="0x8000" Loader="Devices/Synwit/SWM220x6.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM220x8" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x1000" />
+    <FlashBankInfo Name="SWM220x8" BaseAddr="0x00000000" MaxSize="0x10000" Loader="Devices/Synwit/SWM220x8.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM260xB" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x1000" />
+    <FlashBankInfo Name="SWM260xB" BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/Synwit/SWM260xB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM320xC" Core="JLINK_CORE_CORTEX_M4" WorkRAMAddr="0x20000000" WorkRAMSize="0x2000" />
+    <FlashBankInfo Name="SWM320xC" BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/Synwit/SWM320xC.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM320xE" Core="JLINK_CORE_CORTEX_M4" WorkRAMAddr="0x20000000" WorkRAMSize="0x2000" />
+    <FlashBankInfo Name="SWM320xE" BaseAddr="0x00000000" MaxSize="0x80000" Loader="Devices/Synwit/SWM320xE.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
+  <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM341xE" Core="JLINK_CORE_CORTEX_M33" WorkRAMAddr="0x20000000" WorkRAMSize="0x2000" />
+    <FlashBankInfo Name="SWM341xE" BaseAddr="0x00000000" MaxSize="0x80000" Loader="Devices/Synwit/SWM341xE.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
