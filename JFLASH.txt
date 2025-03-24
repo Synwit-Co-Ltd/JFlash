@@ -39,6 +39,10 @@
     <FlashBankInfo Name="SWM260xB" BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/Synwit/SWM260xB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
   <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM261xB" Core="JLINK_CORE_CORTEX_M0" WorkRAMAddr="0x20000000" WorkRAMSize="0x1000" />
+    <FlashBankInfo Name="SWM261xB" BaseAddr="0x00000000" MaxSize="0x20000" Loader="Devices/Synwit/SWM261xB.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
+  <Device>
     <ChipInfo Vendor="Synwit" Name="SWM320xC" Core="JLINK_CORE_CORTEX_M4" WorkRAMAddr="0x20000000" WorkRAMSize="0x2000" />
     <FlashBankInfo Name="SWM320xC" BaseAddr="0x00000000" MaxSize="0x40000" Loader="Devices/Synwit/SWM320xE.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
