@@ -53,6 +53,13 @@
     <FlashBankInfo Name="SWM320xE" BaseAddr="0x00000000" MaxSize="0x80000" Loader="Devices/Synwit/SWM320xE.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
   </Device>
   <Device>
+    <ChipInfo Vendor="Synwit" Name="SWM330xG" Core="JLINK_CORE_CORTEX_M33" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" />
+    <FlashBankInfo Name="SWM330xG" BaseAddr="0x00000000" MaxSize="0x100000" Loader="Devices/Synwit/SWM330xG.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SWM330 QSPI0 NOR Flash" BaseAddr="0x70000000" MaxSize="0x01000000" Loader="Devices/Synwit/SWM330_QSPI0_NOR.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SWM330 QSPI0 NOR Flash (4BYTE ADDR)" BaseAddr="0x70000000" MaxSize="0x08000000" Loader="Devices/Synwit/SWM330_QSPI0_NOR_4BYTE_ADDR.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+    <FlashBankInfo Name="SWM330 QSPI0 NAND Flash" BaseAddr="0x70000000" MaxSize="0x08000000" Loader="Devices/Synwit/SWM330_QSPI0_NAND.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
+  </Device>
+  <Device>
     <ChipInfo Vendor="Synwit" Name="SWM341xE" Core="JLINK_CORE_CORTEX_M33" WorkRAMAddr="0x20000000" WorkRAMSize="0x4000" />
     <FlashBankInfo Name="SWM341xE" BaseAddr="0x00000000" MaxSize="0x80000" Loader="Devices/Synwit/SWM341xE.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
     <FlashBankInfo Name="SWM341 SFC Flash" BaseAddr="0x70000000" MaxSize="0x01000000" Loader="Devices/Synwit/SWM341_SFC.FLM" LoaderType="FLASH_ALGO_TYPE_CMSIS" />
